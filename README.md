@@ -1,4 +1,19 @@
-# AeroSpace Beta [![Build](https://github.com/nikitabobko/AeroSpace/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/nikitabobko/AeroSpace/actions/workflows/build.yml)
+# AeroSpace Repack
+
+> [!IMPORTANT]
+> This is a repack of [AeroSpace](https://github.com/nikitabobko/AeroSpace) by Nikita Bobko, not the official project.
+> It carries changes that aren't upstream yet (`auto-hide-dock`, multi-monitor and workspace fixes),
+> and its [releases](https://github.com/belizariogr/aerospace-repack/releases) are signed with a Developer ID certificate
+> and notarized by Apple, so they install on any Mac without removing the quarantine attribute.
+>
+> **Install:** download `AeroSpace-v<version>.zip` from the [latest release](https://github.com/belizariogr/aerospace-repack/releases/latest),
+> unzip it, move `AeroSpace.app` to `/Applications` and optionally copy `bin/aerospace` to `/usr/local/bin`.
+> Uninstall the official AeroSpace first: both use the `bobko.aerospace` bundle id.
+>
+> **Build a signed release:** `./script/build-signed-release.sh --build-version <version> --codesign-identity "Developer ID Application: ..."`
+> (see the script header for the notarization credentials).
+>
+> Please report issues with this repack here, not in the upstream repository. Everything below is the upstream README.
 
 <img src="./resources/Assets.xcassets/AppIcon.appiconset/icon.png" width="40%" align="right">
 
